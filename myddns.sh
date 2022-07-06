@@ -52,7 +52,7 @@ subdomainU="xqb" # 子域(主机记录)
 run_dnspod # 运行程序 (启动ddns2，请删除最前面的#号)
 
 # 域名解析ddns3
-mac="" # 设备mac地址
-domainU="" # 主域名
-subdomainU="" # 子域(主机记录)
-# run_dnspod # 运行程序
+mac="02:11:32:28:6D:78" # 设备mac地址
+domainU="bueess.top" # 主域名
+subdomainU="xbt" # 子域(主机记录)
+run_dnspod # 运行程序
