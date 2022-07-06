@@ -22,6 +22,7 @@ run_dnspod() {
 # get openwrt-all-device ip list
 get_ipv6() {
     ip neigh > 1.txt
+    echo $mac | awk '{print tolower($0)}' >> mac # 英文大写转小写
     awk "/${mac}/" 1.txt > 2.txt # 列出含有《45:52:82:9e:73:86》mac地址的行
     sed  "/fe80:/d" 2.txt > 1.txt # 删除含有《fe80:》的行
     sed  "/192.168./d" 1.txt > 2.txt # 删除含有ipv4的行
