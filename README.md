@@ -6,7 +6,7 @@
 
 ### openwrt终端输入下面命令，一键安装
 ```sh
-wget  https://ghproxy.com/https://raw.githubusercontent.com/Howardnm/dnspod-shell/master/install.sh && chmod +x install.sh && ./install.sh
+wget  https://ghproxy.com/https://raw.githubusercontent.com/Howardnm/dnspod-shell/old/install.sh && chmod +x install.sh && ./install.sh
 ```
 ### 修改myddns.sh配置文件
 ```sh
