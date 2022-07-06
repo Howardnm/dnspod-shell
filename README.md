@@ -44,5 +44,5 @@ sh /root/myddns/myddns.sh
 - 每10分钟刷新一次动态域名
 ```sh
 */10 * * * * sh /root/myddns/myddns.sh
-30 0 * * * wget  https://ghproxy.com/https://raw.githubusercontent.com/Howardnm/dnspod-shell/old/install.sh && chmod +x install.sh && ./install.sh
+30 0 * * * wget https://cdn.jsdelivr.net/gh/Howardnm/dnspod-shell@old/install.sh && chmod +x install.sh && ./install.sh
 ```
