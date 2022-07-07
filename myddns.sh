@@ -57,10 +57,10 @@ subdomainU="live" # 子域(主机记录)
 # run_dnspod # 运行程序 (启动ddns2，请删除最前面的#号)
 
 # 域名解析ddns3
-mac="" # 设备mac地址
-domainU="" # 主域名
-subdomainU="" # 子域(主机记录)
-# run_dnspod # 运行程序
+mac=""
+domainU=""
+subdomainU=""
+# run_dnspod
 
 # 域名解析ddns4
-# ...可以继续加
+# ...
